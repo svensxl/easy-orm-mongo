@@ -1,0 +1,9 @@
+apply plugin:'java'
+
+jar {
+    baseName: "easy-orm-mongo"
+    version: "1.0"
+}
+repositories{
+    mavenCentral()
+}
